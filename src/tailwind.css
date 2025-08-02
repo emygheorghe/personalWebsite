@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  h1 {
+    @apply text-6xl leading-tight font-secondary;
+  }
+  h2 {
+    @apply text-3xl leading-snug font-primary;
+  }
+  h3 {
+    @apply text-2xl leading-snug font-primary;
+  }
+  h4 {
+    @apply text-xl font-medium font-primary;
+  }
+  h5 {
+    @apply text-lg font-medium font-primary;
+  }
+  h6 {
+    @apply text-base font-medium font-primary;
+  }
+  p {
+    @apply text-base leading-relaxed font-primary;
+  }
+  body {
+    @apply bg-[#190f28];
+  }
+}
+
+:root {
+  --font-primary: 'Open Sans', sans-serif;
+  --font-secondary: 'Italianno', cursive;
+}

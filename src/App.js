@@ -1,14 +1,13 @@
-
 import './App.css';
+import './tailwind.css';
+import Header from './Components/Header';
+import OutlinedFigure from './Assets/OutlinedFigure';
+import HeroBanner from './Sections/herobanner';
 
 function App() {
   return (
-    <div className="App">
-      <header>
-        <h1>Welcome to My Personal Website</h1>
-        <p>This React app is now running on GitHub Pages 🎉</p>
-      </header>
-
+    <div className="mt-16">
+      <HeroBanner className="bg-[#190f28]" />
     </div>
   );
 }
